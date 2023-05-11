@@ -191,6 +191,7 @@ class Program
     {
         int width = kernel.GetLength(0);
         int height = kernel.GetLength(1);
+        
         if (width % 2 == 0 || height % 2 == 0)
         {
             Console.WriteLine("Szerokość i wysokość muszą być wartościami nieparzystymi.");
